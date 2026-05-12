@@ -142,25 +142,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CarService.cpp" />
     <ClCompile Include="CarsForm.cpp" />
-    <ClCompile Include="CustomerService.cpp" />
     <ClCompile Include="CustomersForm.cpp" />
     <ClCompile Include="DashboardForm.cpp" />
     <ClCompile Include="Program.cpp" />
-    <ClCompile Include="RentalService.cpp" />
     <ClCompile Include="RentalsForm.cpp" />
     <ClCompile Include="ReturnsForm.cpp" />
     <ClCompile Include="SplashForm.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Car.h" />
-    <ClInclude Include="CarService.h" />
     <ClInclude Include="CarsForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="Customer.h" />
-    <ClInclude Include="CustomerService.h" />
     <ClInclude Include="CustomersForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -168,12 +161,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="FileHelper.h" />
-    <ClInclude Include="Invoice.h" />
     <ClInclude Include="InvoiceForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="Rental.h" />
-    <ClInclude Include="RentalService.h" />
     <ClInclude Include="RentalsForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -183,10 +173,6 @@
     <ClInclude Include="SplashForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="Validators.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="CarRentalSystem\x64\Splash.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CarsForm.resx">
@@ -212,7 +198,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="x64\Debug\Data\cars.txt" />
     <Text Include="x64\Debug\Data\customers.txt" />
     <Text Include="x64\Debug\Data\invoices.txt" />
     <Text Include="x64\Debug\Data\rentals.txt" />

@@ -16,15 +16,6 @@
     <Filter Include="Forms">
       <UniqueIdentifier>{0473a04d-a199-4ac8-b7d6-0798f5b9e115}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Models">
-      <UniqueIdentifier>{f8650f6a-8ec8-4b50-81bf-55f0cc9a598d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Services">
-      <UniqueIdentifier>{f574fae0-cf07-46df-80c5-5f6a834264cd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Data">
-      <UniqueIdentifier>{e0821d41-ed02-473e-97fc-f0657f1cdc47}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Utils">
       <UniqueIdentifier>{f637d38d-a081-4b54-b61b-f5af60c5c2b0}</UniqueIdentifier>
     </Filter>
@@ -41,15 +32,6 @@
     </ClCompile>
     <ClCompile Include="RentalsForm.cpp">
       <Filter>Forms</Filter>
-    </ClCompile>
-    <ClCompile Include="CarService.cpp">
-      <Filter>Services</Filter>
-    </ClCompile>
-    <ClCompile Include="CustomerService.cpp">
-      <Filter>Services</Filter>
-    </ClCompile>
-    <ClCompile Include="RentalService.cpp">
-      <Filter>Services</Filter>
     </ClCompile>
     <ClCompile Include="Program.cpp">
       <Filter>Source Files</Filter>
@@ -77,31 +59,7 @@
     <ClInclude Include="InvoiceForm.h">
       <Filter>Forms</Filter>
     </ClInclude>
-    <ClInclude Include="Car.h">
-      <Filter>Models</Filter>
-    </ClInclude>
-    <ClInclude Include="Customer.h">
-      <Filter>Models</Filter>
-    </ClInclude>
-    <ClInclude Include="Rental.h">
-      <Filter>Models</Filter>
-    </ClInclude>
-    <ClInclude Include="Invoice.h">
-      <Filter>Models</Filter>
-    </ClInclude>
-    <ClInclude Include="CarService.h">
-      <Filter>Services</Filter>
-    </ClInclude>
-    <ClInclude Include="CustomerService.h">
-      <Filter>Services</Filter>
-    </ClInclude>
-    <ClInclude Include="RentalService.h">
-      <Filter>Services</Filter>
-    </ClInclude>
     <ClInclude Include="FileHelper.h">
-      <Filter>Utils</Filter>
-    </ClInclude>
-    <ClInclude Include="Validators.h">
       <Filter>Utils</Filter>
     </ClInclude>
     <ClInclude Include="SplashForm.h">
@@ -112,14 +70,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="CarRentalSystem\x64\Splash.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="x64\Debug\Data\cars.txt">
-      <Filter>Data</Filter>
-    </Text>
     <Text Include="x64\Debug\Data\customers.txt" />
     <Text Include="x64\Debug\Data\rentals.txt" />
     <Text Include="x64\Debug\Data\returns.txt" />
